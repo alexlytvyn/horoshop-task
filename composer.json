@@ -1,0 +1,26 @@
+{
+    "name": "horoshop/php-test",
+    "description": "Horoshop test for PHP developer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "SovaHoroshop",
+            "email": "vladimir@zteel.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Horoshop\\": "src/"
+        }
+    },
+    "scripts": {
+        "test" : "vendor/bin/phpunit"
+    }
+}
